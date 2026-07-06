@@ -63,11 +63,9 @@ The objective is to provide a robust audio encryption mechanism that offers high
 ```text
 .
 ├── audioencryption_updated.ipynb
-├── encrypted_audio/
-├── decrypted_audio/
-├── input_audio/
-├── README.md
-└── requirements.txt
+├── data/
+├── results/
+└── README.md
 ```
 
 ---
@@ -86,12 +84,6 @@ pip install matplotlib
 pip install hashlib
 ```
 
-Or install from:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## Usage
@@ -107,7 +99,7 @@ jupyter notebook
 Then execute:
 
 ```text
-audioencryption_updated.ipynb
+audioencryption.ipynb
 ```
 
 ### Encryption
